@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.organdonation">
+
+    <application
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:allowBackup="true"
+        android:label="Organ Donation">
+
+        <activity android:name=".auth.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".user.UserDashboardActivity"/>
+        <activity android:name=".user.DonateOrganActivity"/>
+        <activity android:name=".user.RequestOrganActivity"/>
+        <activity android:name=".hospital.HospitalDashboardActivity"/>
+        <activity android:name=".admin.AdminDashboardActivity"/>
+        <activity android:name=".common.AwarenessActivity"/>
+
+    </application>
+</manifest>
