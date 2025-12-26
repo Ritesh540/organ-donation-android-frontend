@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/btnDonate" android:text="Donate Organ"/>
+    <Button android:id="@+id/btnRequest" android:text="Request Organ"/>
+    <Button android:id="@+id/btnAwareness" android:text="Awareness"/>
+</LinearLayout>
